@@ -6,7 +6,7 @@ const PORT = 3000;
 
 const app = express();
 app.set('view engine', 'ejs');
-app.set('view','./src/views');
+app.set('views','./src/views');
 app.use(bodyParser.json());
 app.use(express.json());
 

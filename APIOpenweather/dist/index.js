@@ -9,7 +9,7 @@ const axios_1 = __importDefault(require("axios"));
 const PORT = 3000;
 const app = express();
 app.set('view engine', 'ejs');
-app.set('view', './src/views');
+app.set('views', './src/views');
 app.use(body_parser_1.default.json());
 app.use(express.json());
 app.get('/', async (req, res) => {
